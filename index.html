@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>emerso-n central</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://emerso-n.github.io/my-base-css/base.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript.js" defer></script>
+  </head>
+  <body>
+    <div id="page_con">
+      <nav>
+        <h1>Emerso-n Creative Industries</h1>
+        <div id="nav_btns"><button>Account</button> <input type="search" id="search-bar"> <button>Cart</button></div>
+      </nav>
+      <div id="sidebar">
+        <form autocomplete="off">
+        <p>Filter</p>
+
+        <div class="dropdown_con">
+          <div class="dropdown_btn" id="001">Product Type<span class="arrow arrowdown" id="001_arrow"></span></div>
+          <ul class="dropdown_items" id="001_items">
+            <li>
+              <input type="checkbox" id="interactive" checked="true"/><label for="interactive">Interactive Experiences</label>
+              <ul>
+                <li><input type="checkbox" id="websites" checked="true" /><label for="websites">Web Sites</label></li>
+                <li><input type="checkbox" id="games" /><label for="games">Games</label></li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="visual" /><label for="visual">Visual Experiences</label>
+              <ul>
+                <li><input type="checkbox" id="3d" /><label for="3d">3 Dimensional</label></li>
+                <li><input type="checkbox" id="2d" /><label for="2d">2 Dimensional</label></li>
+              </ul>
+            </li>
+            <li>
+              <input type="checkbox" id="concepts" /><label for="concepts">Concepts</label>
+              <ul>
+                <li><input type="checkbox" id="design" /><label for="design">Design</label></li>
+                <li><input type="checkbox" id="storytelling" /><label for="storytelling">Storytelling</label></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="dropdown_con">
+          <div class="dropdown_btn" id="002">Style<span class="arrow arrowdown" id="002_arrow"></span></div>
+          <ul class="dropdown_items" id="002_items">
+            <li><input type="checkbox" id="futuristic" /><label for="futuristic">Futuristic</label></li>
+            <li><input type="checkbox" id="rebellious" /><label for="rebellious">Rebellious</label></li>
+            <li><input type="checkbox" id="kawaii" /><label for="kawaii">Kawaii</label></li>
+            <li><input type="checkbox" id="cyberpunk" /><label for="cyberpunk">Cyberpunk</label></li>
+          </ul>
+        </div>
+
+        <div class="dropdown_con">
+          <div class="dropdown_btn" id="003">Price<span class="arrow arrowdown" id="003_arrow"></span></div>
+          <ul class="dropdown_items" id="003_items">
+            <li><input type="checkbox" id="500" /><label for="500">$500+</label></li>
+            <li><input type="checkbox" id="400" /><label for="400">$400-$499</label></li>
+            <li><input type="checkbox" id="300" /><label for="300">$300-$399</label></li>
+            <li><input type="checkbox" id="200" /><label for="200">$200-$299</label></li>
+            <li><input type="checkbox" id="100" /><label for="100">$100-$199</label></li>
+            <li><input type="checkbox" id="0" /><label for="0">0$-$100</label></li>
+          </ul>
+        </div>
+        </form>
+      </div>
+      <div id="items_con">
+        <div class="item-listing">
+          <div class="item-image">
+            <a href="https://emerso-n.github.io/odin-recipes/" target="blank">
+              <img src="images/recipe-site.png" alt="recipe site" />
+            </a>
+          </div>
+          <div class="item-info">
+            <div>
+              <div class="item-name">Recipe Site</div>
+              <div class="item-description">A glitchy, experimental recipe site design. Side effects may include: eye strain, wonky formatting, confusion.</div>
+            </div>
+            <div>
+              <div class="item-price">$102.23</div>
+              <div class="item-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div>
+              <div class="item-delivery">Instant Delivery!</div>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="item-listing">
+          <div class="item-image">
+            <a href="https://emerso-n.github.io/odin-landing-page/" target="blank">
+              <img src="images/corporation.png" alt="corporation landing page" />
+            </a>
+          </div>
+          <div class="item-info">
+            <div>
+              <div class="item-name">Corporation Site</div>
+              <div class="item-description">A glitchy, experimental recipe site design. Side effects may include: eye strain, wonky formatting, confusion.</div>
+            </div>
+            <div>
+              <div class="item-price">$102.23</div>
+              <div class="item-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div>
+              <div class="item-delivery">Instant Delivery!</div>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="item-listing">
+          <div class="item-image">
+            <a href="https://emerso-n.github.io/rock-paper-scissors/" target="blank">
+              <img src="images/rock-paper-scissors.png" alt="rock paper scissors game" />
+            </a>
+          </div>
+          <div class="item-info">
+            <div>
+              <div class="item-name">Rock Paper Scissors Game</div>
+              <div class="item-description">A glitchy, experimental recipe site design. Side effects may include: eye strain, wonky formatting, confusion.</div>
+            </div>
+            <div>
+              <div class="item-price">$102.23</div>
+              <div class="item-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div>
+              <div class="item-delivery">Instant Delivery!</div>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="item-listing">
+          <div class="item-image">
+            <a href="https://emerso-n.github.io/Etch-a-Sketch/" target="blank">
+              <img src="images/pixel-sketchr.png" alt="pixel sketcher app" />
+            </a>
+          </div>
+          <div class="item-info">
+            <div>
+              <div class="item-name">Pixel Sketchr</div>
+              <div class="item-description">A glitchy, experimental recipe site design. Side effects may include: eye strain, wonky formatting, confusion.</div>
+            </div>
+            <div>
+              <div class="item-price">$102.23</div>
+              <div class="item-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div>
+              <div class="item-delivery">Instant Delivery!</div>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="item-listing">
+          <div class="item-image">
+            <a href="https://emerso-n.github.io/calculator/" target="blank">
+              <img src="images/calculator.png" alt="calculator app" />
+            </a>
+          </div>
+          <div class="item-info">
+            <div>
+              <div class="item-name">Calculator</div>
+              <div class="item-description">A glitchy, experimental recipe site design. Side effects may include: eye strain, wonky formatting, confusion.</div>
+            </div>
+            <div>
+              <div class="item-price">$102.23</div>
+              <div class="item-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div>
+              <div class="item-delivery">Instant Delivery!</div>
+              <button>Order Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="site-link">
+          <a href="https://emerso-n.github.io/odin-landing-page/" target="blank">
+            <img src="images/corporation.png" alt="corporation landing page" />
+          </a>
+        </div>
+        <div class="site-link">
+          <a href="https://emerso-n.github.io/rock-paper-scissors/" target="blank">
+            <img src="images/rock-paper-scissors.png" alt="rock paper scissors game" />
+          </a>
+        </div>
+        <div class="site-link">
+          <a href="https://emerso-n.github.io/Etch-a-Sketch/" target="blank">
+            <img src="images/pixel-sketchr.png" alt="pixel sketcher app" />
+          </a>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>
