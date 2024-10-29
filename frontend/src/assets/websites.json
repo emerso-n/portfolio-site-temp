@@ -1,0 +1,37 @@
+{
+	"Recipe Site": {
+		"url": "https://emerso-n.github.io/odin-recipes/",
+		"description": "A glitchy, experimental recipe site design. Side effects may include: eye strain, wonky formatting, confusion.",
+		"image": "recipe-site.png"
+	},
+	"Corporation Site": {
+		"url": "https://emerso-n.github.io/odin-landing-page/",
+		"description": "A mock landing page for a very trustworthy CORPORATION. Warning: contains frightening elements.",
+		"image": "corporation.png"
+	},
+	"Rock Paper Scissors": {
+		"url": "https://emerso-n.github.io/rock-paper-scissors/",
+		"description": "The Rock-Paper-Scissors game you know and love, now playable against a computer opponent.",
+		"image": "rock-paper-scissors.png"
+	},
+	"Pixel Sketchr": {
+		"url": "https://emerso-n.github.io/Etch-a-Sketch/",
+		"description": "Make pixel art right in your web browser and then blow it away like a digital sand mandala. Note: this app is for entertainment purposes only.",
+		"image": "pixel-sketchr.png"
+	},
+	"Calculator": {
+		"url": "https://emerso-n.github.io/calculator/",
+		"description": "Get all the answers to your arithmetic questions and enjoy the immersive retro vibes of this aesthetic math app. You may even find a couple secrets along the way.",
+		"image": "calculator.png"
+	},
+	"Service Sign Up": {
+		"url": "https://emerso-n.github.io/sign-up-form/",
+		"description": "Sign up for a very real service with this realistic simulation of everyone's favorite web activity.",
+		"image": "sign-up-form.png"
+	},
+	"Tic-Tac-Toe": {
+		"url": "https://emerso-n.github.io/tic-tac-toe/",
+		"description": "Try your luck against our custom made unbeatable AI in the classic X and O placing game. Features charming, handcrafted graphics.",
+		"image": "tic-tac-toe.png"
+	}
+}
